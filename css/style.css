@@ -1,3 +1,50 @@
-h1 {
-  background: red;
+body {
+font-family: arial,sans-serif;
+}
+
+#map {
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
+
+table {
+  background-color: white;
+}
+
+.body-top {
+  padding-top: 240px;
+
+}
+
+.body-bottom {
+  padding-top: 60px;
+
+}
+
+.header {
+  background-image: url('http://conceptodefinicion.de/wp-content/uploads/2014/03/ciudad.jpg');
+  background-size: cover;
+  padding-top: 100px;
+
+}
+.header-top {
+  background-image: url('http://www.up-downbikes.it/images/Cool-Designs-HD-Wallpaper.jpg');
+  background-size: cover;
+  padding-top: 100px;
+
+}
+
+.header-bottom{
+  background-image: url('http://www.up-downbikes.it/images/Cool-Designs-HD-Wallpaper.jpg');
+  background-size: cover;
+  padding-top: 100px;
+  margin-bottom: 30px;
+
+}
+
+.header-text {
+  margin-bottom: 0px;
+  color: white;
+
 }
