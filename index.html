@@ -1,11 +1,38 @@
-<DOCTYPE html>
-  <html>
+<!DOCTYPE html>
+<html>
   <head>
-    <title>El tiempo</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>El Tiempo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <meta name="description" content="">
+    <link href="main.css" rel="stylesheet" media="screen">
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery-mockjax/1.5.1/jquery.mockjax.js"></script> 
+    <script type="text/javascript" src="jquery.cascadingdropdown.js"></script> 
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+    <style>
+    </style>
   </head>
   <body>
-    <h1>hola mundo</h1>
-    <script src="js/script.js"></script>
+    <div class="container">
+    <h1>Pronóstico del tiempo por Ciudad</h1>
+      <div id="dropper" class="drop">
+        <select class="country inputs">
+          <option value="">Selecciona un país</option>
+          <option value="us">Chile</option>
+          <option value="ca">Venezuela</option>
+        </select>
+        <select class="industry inputs">
+          <option value="">Selecciona una ciudad</option>
+          <option value="trans"></option>
+          <option value="web">Caracas</option>
+          <option value="food">Santiago</option>
+        </select>
+      </div>
+      <br>
+      <h3 id="city"><h3>
+    </div>
   </body>
-  </html>
+</html>
